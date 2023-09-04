@@ -1,2 +1,2 @@
 #!/bin/bash
-greb "ˆ[[:upper:]]\|ˆ[[:lower:]]" /etc/ssh/sshd_config
+greb -i "^[a-z]" /etc/ssh/sshd_config
